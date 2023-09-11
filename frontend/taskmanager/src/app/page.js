@@ -1,9 +1,8 @@
 'use client'
-// pages/tasks/index.js
 
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { FaTrash, FaCheckCircle, FaCircle } from 'react-icons/fa'; // Import FontAwesome icons
+import { FaTrash, FaCheckCircle, FaCircle } from 'react-icons/fa';
 
 
 export default function Tasks() {
